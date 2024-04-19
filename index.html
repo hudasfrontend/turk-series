@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TurkDizi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    #nav-header>a:hover {
+      background-color: rgba(194, 194, 194, 0.342);
+    }
+    #carousel-title {
+      background-color: rgba(29, 29, 29, 0.842);
+    }
+    #nav-footer>a {
+      border-radius: 5px;
+    }
+    #nav-footer>a:hover {
+      background-color: rgba(194, 194, 194, 0.342);
+      border-radius: 5px;
+    }
+
+    @media (max-width: 932px) {
+      #carousel-img {
+        width: 100%;
+        height: 300px;
+      }
+    }
+</style>
+</head>
+<body>
+  <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">TurkDizi</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li id="nav-header" class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
+          <li id="nav-header" class="nav-item"><a href="./series.html" class="nav-link">Series</a></li>
+          <li id="nav-header" class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+        </ul>
+      </header>
+  </div>
+  <div class="container my-5">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1 text-body-emphasis">My Top 5 Turkish Series</h1>
+          <p class="lead">
+              Who isn't watching turkish series these days?
+              I bet no one! You didn't believe me right? Well, it has been proven that 
+              Turkey is the second-largest exporter of TV series in the world after the United States, followed by Great Britain, France, and Germany.
+              So if you are a starter looking for a new series to watch, I have here for you 5 of my top favorite turkish series that you will never regret watching.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <button type="button" class="btn btn-outline-primary btn-sm px-4" fdprocessedid="2i86tse"><a href="#"><img src="./images/icons8-twitterx-500.png" alt="twitterx icon" width="30" height="30"></a></button>
+            <button type="button" class="btn btn-outline-primary btn-sm px-4" fdprocessedid="2i86tse"><a href="#"><img src="./images/icons8-instagram-500.png" alt="instagram icon" width="30" height="30"></a></button>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-3" src="./images/dizi.png" alt="" width="720">
+        </div>
+      </div>
+  </div>
+
+  <div class="container shadow-lg">
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5" class=""></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img id="carousel-img" class="bd-placeholder-img" width="100%" height="650" src="./images/içerde-poster.jpg" alt="içerde poster">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 id="carousel-title">Içerde</h1>
+                <p><a class="btn btn-lg btn-primary" href="./series.html">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img id="carousel-img" class="bd-placeholder-img" width="100%" height="650" src="./images/maraşlı-carousel-poster.jpg" alt="maraşlı poster">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 id="carousel-title">Maraşlı</h1>
+                <p><a class="btn btn-lg btn-primary" href="./series.html">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img id="carousel-img" class="bd-placeholder-img" width="100%" height="650" src="./images/halka-carousel-poster.jpg" alt="halka poster">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 id="carousel-title">Halka</h1>
+                <p><a class="btn btn-lg btn-primary" href="./series.html">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img id="carousel-img" class="bd-placeholder-img" width="100%" height="650" src="./images/teşkilat-carousel-poster.jpg" alt="teşkilat poster">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 id="carousel-title">Teşkilat</h1>
+                <p><a class="btn btn-lg btn-primary" href="./series.html">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img id="carousel-img" class="bd-placeholder-img" width="100%" height="650" src="./images/söz-carousel-poster.jpg" alt="söz poster">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 id="carousel-title">Söz</h1>
+                <p><a class="btn btn-lg btn-primary" href="./series.html">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </div>
+
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li id="nav-footer" class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li id="nav-footer" class="nav-item"><a href="./series.html" class="nav-link px-2 text-body-secondary">Series</a></li>
+      <li id="nav-footer" class="nav-item"><a href="./about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2024 TurkDizi, Inc</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
